@@ -1,0 +1,315 @@
+body {
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    background-size: contain;
+    background-position: top center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a,
+nav p {
+    text-decoration: none;
+    color: green;
+}
+
+nav p {
+    margin: 0;
+}
+
+nav ul,
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul.meniu>li {
+    position: relative;
+}
+
+nav>ul.meniu>li>ul.submeniu {
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 3rem;
+    z-index: 10;
+}
+
+nav>ul.meniu>li:hover>ul.submeniu {
+    display: block;
+}
+
+nav {
+    height: 3rem;
+    position: sticky;
+    top: 0;
+    line-height: 3rem;
+}
+
+nav>ul.meniu>li {
+    float: left;
+    width: 19%;
+    height: 3rem;
+    text-align: center;
+    border: 1px solid purple;
+}
+
+nav ul.submeniu>li {
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    border: 1px solid purple;
+    background-color: white;
+}
+
+nav a,
+nav p {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    transition: background-color 0.5s;
+}
+
+nav a:hover,
+nav p:hover {
+    background-color: lightblue;
+}
+
+#login {
+    display: none;
+    background-color: lightblue;
+}
+
+#mode {
+    display: flex;
+}
+
+#footer {
+    display: flex;
+}
+
+#links {
+    display: flex;
+}
+
+footer p, footer a {
+    padding: 5px;
+}
+
+#introduction:after {
+    content: "The world could always use more heroes!";
+}
+
+.heroes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.tank {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.damage {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.support {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.heroes figure {
+    background-color: #c4cedc;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+}
+
+.heroes figure:hover {
+    transform: scale(1.3);
+    background-color: rgb(117, 188, 212);
+}
+
+.types {
+    display: flex;
+    justify-content: space-around;
+    animation: jump 1s 1 linear;
+}
+
+@keyframes jump {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    16% {
+        transform: translateY(-80px);
+    }
+
+    32% {
+        transform: translateY(0);
+    }
+
+    48% {
+        transform: translateY(-50px);
+    }
+
+    64% {
+        transform: translateY(0);
+    }
+
+    80% {
+        transform: translateY(-30px);
+    }
+}
+
+.doomfist,
+.dva,
+.junkerqueen,
+.mauga,
+.orisa,
+.ramattra,
+.reinhardt,
+.roadhog,
+.sigma,
+.winston,
+.wreckingball,
+.zarya,
+.ashe,
+.bastion,
+.cassidy,
+.echo,
+.genji,
+.hanzo,
+.junkrat,
+.mei,
+.pharah,
+.reaper,
+.sojourn,
+.soldier76,
+.sombra,
+.symmetra,
+.torbjorn,
+.venture,
+.tracer,
+.widowmaker,
+.ana,
+.baptiste,
+.brigitte,
+.illari,
+.kiriko,
+.lifeweaver,
+.lucio,
+.mercy,
+.moira,
+.zenyatta {
+    color: black;
+    border: 3px solid blue;
+    background-color: lightblue;
+    border-radius: 20px;
+    display: flex;
+}
+
+.column {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.column>* {
+    margin-bottom: 10px;
+}
+
+.imageheroes {
+    padding: 7px;
+    width: 60%;
+    height: auto;
+    align-self: flex-end;
+    transition: width 2s;
+}
+
+.imageheroes:hover {
+    width: 80%;
+}
+
+.name {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.description {
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.info {
+    padding: 20px;
+    text-align: left;
+}
+
+
+.description:hover,
+.info:hover {
+    background-color: rgb(78, 146, 168);
+    transform: scale(1.1);
+}
+
+.devnotes {
+    display: flex;
+}
+
+article {
+    border: 1px solid grey;
+}
+
+article > h4 {
+    text-align: center;
+}
+
+.maps {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: space-around;
+}
+
+.maps div {
+    display: flex;
+    flex-direction: column;
+}
+
+.maps figure {
+    background-color: #c4cedc;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+}
+
+.imagemaps {
+    max-width: 100%;
+    height: auto;
+}
+
+.heroes figure.favheroes {
+    border: 5px solid gold;
+}
+
+.adisabled {
+    pointer-events: none;
+}
+
+#iframe {
+    display: none;
+}

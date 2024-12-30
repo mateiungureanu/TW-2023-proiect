@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Heroes</title>
+    <link href="stil.css" type="text/css" rel="stylesheet" media="(min-width:1300px)">
+    <link href="mic.css" type="text/css" rel="stylesheet" media="(max-width:1300px)">
+    <link rel="icon" type="image/x-icon" href="C:/Users/Matei/Desktop/html_proiect/favicon.jpg">
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul class="meniu">
+            <li><a href="overwatch.html">Home</a></li>
+            <li><a href="overwatch.html#devnotes">Dev Notes</a></li>
+            <li><a href="#game-info">Game Info</a>
+                <ul class="submeniu">
+                    <li><a href="heroes.html">Heroes</a></li>
+                    <li><a href="maps.html">Maps</a></li>
+                </ul>
+            </li>
+            <li><a href="overwatch.html#support">Support</a>
+                <ul class="submeniu">
+                    <li><a href="overwatch.html#submit-ticket">Submit a Ticket</a></li>
+                    <li><a href="overwatch.html#contact">Contact</a></li>
+                </ul>
+            </li>
+            <li>
+                <p id="formular">Log in</p>
+                <form id="login">
+                    <div>
+                        <label for="username">Username:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    <div>
+                        <label for="password">Password:</label>
+                    </div>
+                    <div>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <br>
+        <br>
+        <br>
+        <h1 id="home">HEROES</h1>
+    </header>
+    <p id="fav">Show only favorite heroes</p>
+    <br>
+    <p id="add">
+        Add/remove a favorite hero
+    </p>
+    <div class="types">
+        <h2>TANK</h2>
+        <h2>DAMAGE</h2>
+        <h2>SUPPORT</h2>
+    </div>
+    <div class="heroes">
+        <div class="tank">
+            <figure class="grid-item">
+                <a href="#dva"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/ca114f72193e4d58a85c087e9409242f1a31e808cf4058678b8cbf767c2a9a0a.png"
+                        alt="D.Va" width="100"></a>
+                <figcaption>D.Va</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#doomfist"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/13750471c693c1a360eb19d5ace229c8599a729cd961d72ebee0e157657b7d18.png"
+                        alt="Doomfist" width="100"></a>
+                <figcaption>Doomfist</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#junkerqueen"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/cef2406b2244b80506f83b8fb9ebaf214f41fa8795cbeef84026cd8018561d04.png"
+                        alt="Junker Queen" width="100"></a>
+                <figcaption>Junker Queen</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#mauga"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/9ee3f5a62893091d575ec0a0d66df878597086374202c6fc7da2d63320a7d02e.png"
+                        alt="Mauga" width="100"></a>
+                <figcaption>Mauga</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#orisa"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/71e96294617e81051d120b5d04b491bb1ea40e2933da44d6631aae149aac411d.png"
+                        alt="Orisa" width="100"></a>
+                <figcaption>Orisa</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#ramattra"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/3e0367155e1940a24da076c6f1f065aacede88dbc323631491aa0cd5a51e0b66.png"
+                        alt="Ramattra" width="100"></a>
+                <figcaption>Ramattra</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#reinhardt"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/490d2f79f8547d6e364306af60c8184fb8024b8e55809e4cc501126109981a65.png"
+                        alt="Reinhardt" width="100"></a>
+                <figcaption>Reinhardt</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#roadhog"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/72e02e747b66b61fcbc02d35d350770b3ec7cbaabd0a7ca17c0d82743d43a7e8.png"
+                        alt="Roadhog" width="100"></a>
+                <figcaption>Roadhog</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#sigma"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/cd7a4c0a0df8924afb2c9f6df864ed040f20250440c36ca2eb634acf6609c5e4.png"
+                        alt="Sigma" width="100"></a>
+                <figcaption>Sigma</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#winston"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/bd9c8e634d89488459dfc1aeb21b602fa5c39aa05601a4167682f3a3fed4e0ee.png"
+                        alt="Winston" width="100"></a>
+                <figcaption>Winston</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#wreckingball"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/5c18e39ce567ee8a84078f775b9f76a2ba891de601c059a3d2b46b61ae4afb42.png"
+                        alt="Wrecking Ball" width="100"></a>
+                <figcaption>Wrecking Ball</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#zarya"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/8819ba85823136640d8eba2af6fd7b19d46b9ee8ab192a4e06f396d1e5231f7a.png"
+                        alt="Zarya" width="100"></a>
+                <figcaption>Zarya</figcaption>
+            </figure>
+        </div>
+        <div class="damage">
+            <figure class="grid-item">
+                <a href="#ashe"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/8dc2a024c9b7d95c7141b2ef065590dbc8d9018d12ad15f76b01923986702228.png"
+                        alt="Ashe" width="100"></a>
+                <figcaption>Ashe</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#bastion"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/4d715f722c42215072b5dd0240904aaed7b5285df0b2b082d0a7f1865b5ea992.png"
+                        alt="Bastion" width="100"></a>
+                <figcaption>Bastion</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#cassidy"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/6cfb48b5597b657c2eafb1277dc5eef4a07eae90c265fcd37ed798189619f0a5.png"
+                        alt="Cassidy" width="100"></a>
+                <figcaption>Cassidy</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#echo"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/f086bf235cc6b7f138609594218a8385c8e5f6405a39eceb0deb9afb429619fe.png"
+                        alt="Echo" width="100"></a>
+                <figcaption>Echo</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#genji"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/4edf5ea6d58c449a2aeb619a3fda9fff36a069dfbe4da8bc5d8ec1c758ddb8dc.png"
+                        alt="Genji" width="100"></a>
+                <figcaption>Genji</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#hanzo"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/aecd8fa677f0093344fab7ccb7c37516c764df3f5ff339a5a845a030a27ba7e0.png"
+                        alt="Hanzo" width="100"></a>
+                <figcaption>Hanzo</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#junkrat"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/037e3df083624e5480f8996821287479a375f62b470572a22773da0eaf9441d0.png"
+                        alt="Junkrat" width="100"></a>
+                <figcaption>Junkrat</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#mei"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/1533fcb0ee1d3f9586f84b4067c6f63eca3322c1c661f69bfb41cd9e4f4bcc11.png"
+                        alt="Mei" width="100"></a>
+                <figcaption>Mei</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#pharah"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/f8261595eca3e43e3b37cadb8161902cc416e38b7e0caa855f4555001156d814.png"
+                        alt="Pharah" width="100"></a>
+                <figcaption>Pharah</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#reaper"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/2edb9af69d987bb503cd31f7013ae693640e692b321a73d175957b9e64394f40.png"
+                        alt="Reaper" width="100"></a>
+                <figcaption>Reaper</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#sojourn"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/a53bf7ad9d2f33aaf9199a00989f86d4ba1f67c281ba550312c7d96e70fec4ea.png"
+                        alt="Sojourn" width="100"></a>
+                <figcaption>Sojourn</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#soldier76"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/20b4ef00ed05d6dba75df228241ed528df7b6c9556f04c8070bad1e2f89e0ff5.png"
+                        alt="Soldier: 76" width="100"></a>
+                <figcaption>Soldier:76</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#sombra"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/bca8532688f01b071806063b9472f1c0f9fc9c7948e6b59e210006e69cec9022.png"
+                        alt="Sombra" width="100"></a>
+                <figcaption>Sombra</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#symmetra"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/7f2024c5387c9d76d944a5db021c2774d1e9d7cbf39e9b6a35b364d38ea250ac.png"
+                        alt="Symmetra" width="100"></a>
+                <figcaption>Symmetra</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#torbjorn"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/1309ab1add1cc19189a2c8bc7b1471f88efa1073e9705d2397fdb37d45707d01.png"
+                        alt="Torbjorn" width="100"></a>
+                <figcaption>Torbjorn</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#tracer"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/a66413200e934da19540afac965cfe8a2de4ada593d9a52d53108bb28e8bbc9c.png"
+                        alt="Tracer" width="100"></a>
+                <figcaption>Tracer</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#venture"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/7e33dd756c8a1abca519af6c3bf26813f2f81d39885373539efcf8442c4bc647.png"
+                        alt="Venture" width="100"></a>
+                <figcaption>Venture</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#widowmaker"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/a714f1cb33cc91c6b5b3e89ffe7e325b99e7c89cc8e8feced594f81305147efe.png"
+                        alt="Widowmaker" width="100"></a>
+                <figcaption>Widowmaker</figcaption>
+            </figure>
+        </div>
+        <div class="support">
+            <figure class="grid-item">
+                <a href="#ana"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/3429c394716364bbef802180e9763d04812757c205e1b4568bc321772096ed86.png"
+                        alt="Ana" width="100"></a>
+                <figcaption>Ana</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#baptiste"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/f979896f74ba22db2a92a85ae1260124ab0a26665957a624365e0f96e5ac5b5c.png"
+                        alt="Baptiste" width="100"></a>
+                <figcaption>Baptiste</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#brigitte"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/48392820c6976ee1cd8dde13e71df85bf15560083ee5c8658fe7c298095d619a.png"
+                        alt="Brigitte" width="100"></a>
+                <figcaption>Brigitte</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#illari"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/5ea986038f9d307bd4613d5e6f2c4c8e7f15f30ceeeabbdd7a06637a38f17e1f.png"
+                        alt="Illari" width="100"></a>
+                <figcaption>Illari</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#kiriko"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/088aff2153bdfa426984b1d5c912f6af0ab313f0865a81be0edd114e9a2f79f9.png"
+                        alt="Kiriko" width="100"></a>
+                <figcaption>Kiriko</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#lifeweaver"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/39d4514f1b858bc228035b09d5a74ed41f8eeefc9a0d1873570b216ba04334df.png"
+                        alt="Lifeweaver" width="100"></a>
+                <figcaption>Lifeweaver</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#lucio"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/e2ff2527610a0fbe0c9956f80925123ef3e66c213003e29d37436de30b90e4e1.png"
+                        alt="Lucio" width="100"></a>
+                <figcaption>Lucio</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#mercy"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/2508ddd39a178d5f6ae993ab43eeb3e7961e5a54a9507e6ae347381193f28943.png"
+                        alt="Mercy" width="100"></a>
+                <figcaption>Mercy</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#moira"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/000beeb5606e01497897fa9210dd3b1e78e1159ebfd8afdc9e989047d7d3d08f.png"
+                        alt="Moira" width="100"></a>
+                <figcaption>Moira</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <a href="#zenyatta"><img
+                        src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/71cabc939c577581f66b952f9c70891db779251e8e70f29de3c7bf494edacfe4.png"
+                        alt="Zenyatta" width="100"></a>
+                <figcaption>Zenyatta</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="hero-desc">
+        <div class="tank-desc">
+            <div id="dva" class="dva">
+                <div class="column">
+                    <p class="name">D.VA</p>
+                    <p class="description">
+                        D.Va is a former professional gamer who now uses her skills to pilot a state-of-the-art mech
+                        in
+                        defense of her homeland.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: MEKA Base, Busan, South Korea (formerly), Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Jun 22 (Age: 21)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/dva/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt72d062619b59e3d8/63880902bbfd340e8ad2e41b/dva-01.jpg?format=webply&quality=90"
+                    alt="D.Va">
+            </div>
+            <div id="doomfist" class="doomfist">
+                <div class="column">
+                    <p class="name">DOOMFIST</p>
+                    <p class="description">
+                        Doomfist is the calculating leader of Talon, a terrorist organization and paramilitary force
+                        that
+                        works in direct opposition to Overwatch.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: Oyo, Nigeria (formerly), Rome, Italy
+                        </p>
+                        <p>
+                            Birthdate: May 25 (Age: 47)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/doomfist/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltd16eae51df615e53/637da152113983111ba8ceca/doomfist-00.jpg?format=webply&quality=90"
+                    alt="Doomfist">
+            </div>
+            <div id="junkerqueen" class="junkerqueen">
+                <div class="column">
+                    <p class="name">JUNKER QUEEN</p>
+                    <p class="description">
+                        Armed with her axe, Carnage, and her electromagnetic gauntlet, the cutthroat leader of the
+                        Junkers is on a mission to rule the world.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: Junkertown, Australia
+                        </p>
+                        <p>
+                            Birthdate: Jun 14 (Age: 31)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/junker-queen/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt4cb1904358b0203d/637da174443fa70e71d4bee3/junkerqueen-01.jpg?format=webply&quality=90"
+                    alt="Junker Queen">
+            </div>
+            <div id="mauga" class="mauga">
+                <div class="column">
+                    <p class="name">MAUGA</p>
+                    <p class="description">
+                        A charismatic and cunning Samoan warrior, Mauga thrives in the chaos of the battlefield and
+                        lives every day like it's his last.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: Apia, Samoa
+                        </p>
+                        <p>
+                            Birthdate: Aug 19 (Age: 37)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/mauga/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt530d30b65538a5cb/6568f821ce06a36f1d328ade/New_challenge.jpg?format=webply&quality=90"
+                    alt="Mauga">
+            </div>
+            <div id="orisa" class="orisa">
+                <div class="column">
+                    <p class="name">ORISA</p>
+                    <p class="description">
+                        Built from parts of one of Numbani's short-lived OR15 defense robots, Orisa is the city's
+                        newest
+                        protector, though she still has much to learn.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: Numbani, Africa
+                        </p>
+                        <p>
+                            Birthdate: May 9 (Age: 1)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/orisa/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt92fe22c967d136bc/63880f12e5d09810cdaff697/orisa-01.jpg?format=webply&quality=90"
+                    alt="Orisa">
+            </div>
+            <div id="ramattra" class="ramattra">
+                <div class="column">
+                    <p class="name">RAMATTRA</p>
+                    <p class="description">
+                        The brutal leader of Null Sector will stop at nothing to see his vision for the world
+                        realized.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: Shambali Monastery, Nepal (formerly)
+                        </p>
+                        <p>
+                            Birthdate: Mar 29 (Age: 28)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/ramattra/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt7d27f69cb66e3663/637ef9026f080311223b5462/ramattra-01.jpg?format=webply&quality=90"
+                    alt="Ramattra">
+            </div>
+            <div id="reinhardt" class="reinhardt">
+                <div class="column">
+                    <p class="name">REINHARDT</p>
+                    <p class="description">
+                        Reinhardt Wilhelm styles himself as a champion of a bygone age, who lives by the knightly
+                        codes
+                        of valor, justice, and courage.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: Stuttgart, Germany (formerly), Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Jun 26 (Age: 63)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/reinhardt/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltd01aa64f8857d54e/637da1bd6663180e7cbbce59/reinhardt-01.jpg?format=webply&quality=90"
+                    alt="Reinhardt">
+            </div>
+            <div id="roadhog" class="roadhog">
+                <div class="column">
+                    <p class="name">ROADHOG</p>
+                    <p class="description">
+                        Roadhog is a powerful enforcer with a well-earned reputation for random and wanton
+                        destruction.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: Junkertown, Australia (formerly)
+                        </p>
+                        <p>
+                            Birthdate: Sep 12 (Age: 50)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/roadhog/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt4565b257dd867cf6/637da1d2d44c1b0e1f0e8bb4/roadhog-01.jpg?format=webply&quality=90"
+                    alt="Roadhog">
+            </div>
+            <div id="sigma" class="sigma">
+                <div class="column">
+                    <p class="name">SIGMA</p>
+                    <p class="description">
+                        Brilliant astrophysicist Dr. Siebren de Kuiper's life changed forever when an experiment
+                        gone
+                        wrong gave him the ability to control gravity; now, Talon manipulates him to their own ends.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: The Hague, Netherlands (formerly), International Space Station
+                            (formerly)
+                        </p>
+                        <p>
+                            Birthdate: Mar 15 (Age: 64)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/sigma/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt41d0aa52580d0a5c/63880fe48b3bbe1129cea614/sigma-00.jpg?format=webply&quality=90"
+                    alt="Sigma">
+            </div>
+            <div id="winston" class="winston">
+                <div class="column">
+                    <p class="name">WINSTON</p>
+                    <p class="description">
+                        A super-intelligent, genetically engineered gorilla, Winston is a brilliant scientist and a
+                        champion for humanity's potential.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: Horizon Lunar Colony (formerly), Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Jun 6 (Age: 31)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/winston/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt53bb24e59108b179/638810d7f9f61910b4235897/winston-01.jpg?format=webply&quality=90"
+                    alt="Winston">
+            </div>
+            <div id="wreckingball" class="wreckingball">
+                <div class="column">
+                    <p class="name">WRECKING BALL</p>
+                    <p class="description">
+                        A resourceful and highly intelligent mechanic and fighter, Wrecking Ball rose from the
+                        laboratories of Horizon Lunar Colony to become the Junker Queen’s champion.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: Horizon Lunar Colony (formerly), Junkertown (formerly)
+                        </p>
+                        <p>
+                            Birthdate: Oct 15 (Age: 16)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/wrecking-ball/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt8626841dd0a4756e/637da2238b3bbe1129cea43e/wreckingball-00.jpg?format=webply&quality=90"
+                    alt="Wrecking Ball">
+            </div>
+            <div id="zarya" class="zarya">
+                <div class="column">
+                    <p class="name">ZARYA</p>
+                    <p class="description">
+                        Aleksandra Zaryanova is one of the world's strongest women, a celebrated athlete who
+                        sacrificed
+                        personal glory to protect her family, friends, and country in a time of war.
+                    <div class="info">
+                        <p>
+                            Role: Tank
+                        </p>
+                        <p>
+                            Base of Operations: Krasnoyarsk Front (formerly), Novoanskoye Forward Base, Siberia,
+                            Russia
+                            (formerly), Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Dec 4 (Age: 30)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/zarya/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blte6e9757272caa5fe/637da229f9f61910b4235799/zarya-02.jpg?format=webply&quality=90"
+                    alt="Zarya">
+            </div>
+        </div>
+        <div class="damage-desc">
+            <div id="ashe" class="ashe">
+                <div class="column">
+                    <p class="name">ASHE</p>
+                    <p class="description">
+                        Ashe is the ambitious and calculating leader of the Deadlock Rebels Gang and a respected
+                        figure
+                        in the criminal underworld.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Deadlock Gorge, Arizona, USA
+                        </p>
+                        <p>
+                            Birthdate: Oct 1 (Age: 41)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/ashe/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt811b34d14ae2f336/63880844c72c2b107a6f7dd4/ashe-01.jpg?format=webply&quality=90"
+                    alt="Ashe">
+            </div>
+            <div id="bastion" class="bastion">
+                <div class="column">
+                    <p class="name">BASTION</p>
+                    <p class="description">
+                        Once a frontline combatant in the devastating Omnic Crisis, this curious Bastion unit now
+                        explores the world, fascinated by nature but wary of a fearful humanity.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Gothenburg, Sweden
+                        </p>
+                        <p>
+                            Birthdate: Unknown (Age: 32)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/bastion/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt907d9513bdbf532e/638808a9113983111ba8cfaf/bastion-00.jpg?format=webply&quality=90"
+                    alt="Bastion">
+            </div>
+            <div id="cassidy" class="cassidy">
+                <div class="column">
+                    <p class="name">CASSIDY</p>
+                    <p class="description">
+                        Armed with his Peacekeeper revolver, the outlaw Cole Cassidy doles out justice on his own
+                        terms.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Santa Fe, New Mexico, USA (formerly), Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Jul 31 (Age: 39)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/cassidy/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt1683656b69bedff7/638808d0273de01068bb2806/cassidy-01.jpg?format=webply&quality=90"
+                    alt="Cassidy">
+            </div>
+            <div id="echo" class="echo">
+                <div class="column">
+                    <p class="name">ECHO</p>
+                    <p class="description">
+                        Echo is a multirole, adaptive robot with the most sophisticated artificial intelligence in
+                        the
+                        world, originally designed by Dr. Mina Liao for use during combat missions with Overwatch.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Switzerland (formerly), United States (formerly), Watchpoint:
+                            Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Feb 5 (Age: 14)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/echo/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt770f765476047dd7/637da15d113983111ba8cece/echo-01.jpg?format=webply&quality=90"
+                    alt="Echo">
+            </div>
+            <div id="genji" class="genji">
+                <div class="column">
+                    <p class="name">GENJI</p>
+                    <p class="description">
+                        The cyborg ninja Genji Shimada has made peace with the augmented body he once rejected, and
+                        in
+                        doing so, he has discovered a higher humanity.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Hanamura, Japan (formerly), Shambali Monastery, Nepal (formerly),
+                            Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Oct 28 (Age: 37)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/genji/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltb983c9c07c5e404e/637da16446a48b0e063e4a95/genji-00.jpg?format=webply&quality=90"
+                    alt="Genji">
+            </div>
+            <div id="hanzo" class="hanzo">
+                <div class="column">
+                    <p class="name">HANZO</p>
+                    <p class="description">
+                        Mastering his skills as a bowman and an assassin, Hanzo Shimada strives to prove himself as
+                        a
+                        warrior without peer.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Hanamura, Japan (formerly)
+                        </p>
+                        <p>
+                            Birthdate: Nov 3 (Age: 40)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/hanzo/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt275dedbe72f14964/6388097b3b13b1106f74ec58/hanzo-00.jpg?format=webply&quality=90"
+                    alt="Hanzo">
+            </div>
+            <div id="junkrat" class="junkrat">
+                <div class="column">
+                    <p class="name">JUNKRAT</p>
+                    <p class="description">
+                        Junkrat is an explosives-obsessed demolitionist who lives to cause chaos and destruction.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Junkertown, Australia (formerly)
+                        </p>
+                        <p>
+                            Birthdate: Feb 29 (Age: 27)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/junkrat/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt177223351b58e746/637da179113983111ba8ced2/junkrat-00.jpg?format=webply&quality=90"
+                    alt="Junkrat">
+            </div>
+            <div id="mei" class="mei">
+                <div class="column">
+                    <p class="name">MEI</p>
+                    <p class="description">
+                        Mei is a scientist who has taken the fight to preserve the environment into her own hands.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Xi'an, China (formerly)
+                        </p>
+                        <p>
+                            Birthdate: Sep 5 (Age: 33)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/mei/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt8c3799aa6fd3c033/637da19a443fa70e71d4beeb/mei-00.jpg?format=webply&quality=90"
+                    alt="Mei">
+            </div>
+            <div id="pharah" class="pharah">
+                <div class="column">
+                    <p class="name">PHARAH</p>
+                    <p class="description">
+                        Fareeha Amari's commitment to duty runs in her blood. She comes from a long line of highly
+                        decorated soldiers and burns with the desire to serve with honor.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Giza, Egypt (formerly), Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Apr 15 (Age: 34)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/pharah/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltad9ee72faf5ddb89/637da1ca32db130e11be7e31/pharah-02.jpg?format=webply&quality=90"
+                    alt="Pharah">
+            </div>
+            <div id="reaper" class="reaper">
+                <div class="column">
+                    <p class="name">REAPER</p>
+                    <p class="description">
+                        Some speak of a black-robed terrorist known only as the Reaper. His identity and motives are
+                        a
+                        mystery. What is known is that where he appears, death follows.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Rome, Italy
+                        </p>
+                        <p>
+                            Birthdate: Dec 14 (Age: 60)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/reaper/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltc8039f1e9d655c9a/637da1c55148880e83ab6fc7/reaper-00.jpg?format=webply&quality=90"
+                    alt="Reaper">
+            </div>
+            <div id="sojourn" class="sojourn">
+                <div class="column">
+                    <p class="name">SOJOURN</p>
+                    <p class="description">
+                        As a leader in the bygone days of Overwatch, Vivian Chase, callsign Sojourn, is determined
+                        to
+                        ensure its new heroes don't repeat the mistakes of the past.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Toronto, Canada
+                        </p>
+                        <p>
+                            Birthdate: Jan 12 (Age: 51)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/sojourn/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt97fa68ff5a991d80/637da1da5148880e83ab6fd3/sojourn-02.jpg?format=webply&quality=90"
+                    alt="Sojourn">
+            </div>
+            <div id="soldier76" class="soldier76">
+                <div class="column">
+                    <p class="name">SOLDIER: 76</p>
+                    <p class="description">
+                        The target of an international manhunt, the vigilante known as Soldier: 76 wages a personal
+                        war
+                        to expose the truth behind Overwatch's collapse.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Unknown
+                        </p>
+                        <p>
+                            Birthdate: Jan 27 (Age: 58)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/soldier-76/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt43566dc9446cf327/6388100c5148880e83ab70cf/soldier-01.jpg?format=webply&quality=90"
+                    alt="Soldier: 76">
+            </div>
+            <div id="sombra" class="sombra">
+                <div class="column">
+                    <p class="name">SOMBRA</p>
+                    <p class="description">
+                        One of the world's most notorious hackers, Sombra uses information to manipulate those in
+                        power.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Dorado, Mexico
+                        </p>
+                        <p>
+                            Birthdate: Dec 31 (Age: 32)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/sombra/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blta5830262a146aab0/638810315148880e83ab70d3/sombra-00.jpg?format=webply&quality=90"
+                    alt="Sombra">
+            </div>
+            <div id="symmetra" class="symmetra">
+                <div class="column">
+                    <p class="name">SYMMETRA</p>
+                    <p class="description">
+                        Symmetra literally bends reality. By manipulating hard-light constructs, she crafts the
+                        world as
+                        she wishes it to be, in hopes of engineering a perfect society.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Utopaea, India
+                        </p>
+                        <p>
+                            Birthdate: Oct 2 (Age: 30)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/symmetra/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltd84a036680d83564/637da1eba86e5310c692c02b/symmetra-00.jpg?format=webply&quality=90"
+                    alt="Symmetra">
+            </div>
+            <div id="torbjorn" class="torbjorn">
+                <div class="column">
+                    <p class="name">TORBJORN</p>
+                    <p class="description">
+                        At its height, Overwatch possessed one of the most advanced armaments on the planet, which
+                        could
+                        be traced to the workshop of an ingenious engineer named Torbjörn Lindholm.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Gothenburg, Sweden
+                        </p>
+                        <p>
+                            Birthdate: Sep 21 (Age: 59)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/torbjorn/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt276c871dfd498a99/637da1f532db130e11be7e35/torbjorn-00.jpg?format=webply&quality=90"
+                    alt="Torbjorn">
+            </div>
+            <div id="tracer" class="tracer">
+                <div class="column">
+                    <p class="name">TRACER</p>
+                    <p class="description">
+                        The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible
+                        force for good.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: London, England, Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Feb 17 (Age: 28)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/tracer/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blte9360f1cb69cf0de/6388105b443fa70e71d4bfd1/tracer-02.jpg?format=webply&quality=90"
+                    alt="Tracer">
+            </div>
+            <div id="venture" class="venture">
+                <div class="column">
+                    <p class="name">VENTURE</p>
+                    <p class="description">
+                        A globe-trotting archaeologist and explorer, Venture has a passion for solving history's
+                        mysteries.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Nova Scotia, Canada (Formerly), Roaming
+                        </p>
+                        <p>
+                            Birthdate: Aug 6 (Age : 26)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/venture/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt4ef6b8b5918c3d11/660da22d2c8f665540848434/Venture3.jpg"
+                    alt="Venture">
+            </div>
+            <div id="widowmaker" class="widowmaker">
+                <div class="column">
+                    <p class="name">WIDOWMAKER</p>
+                    <p class="description">
+                        Widowmaker is the perfect assassin: a patient, ruthlessly efficient killer who shows neither
+                        emotion nor remorse.
+                    <div class="info">
+                        <p>
+                            Role: Damage
+                        </p>
+                        <p>
+                            Base of Operations: Annecy, France
+                        </p>
+                        <p>
+                            Birthdate: Nov 19 (Age: 35)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/widowmaker/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blteec179d006096c80/638810adf9f61910b4235893/widowmaker-01.jpg?format=webply&quality=90"
+                    alt="Widowmaker">
+            </div>
+        </div>
+        <div class="support-desc">
+            <div id="ana" class="ana">
+                <div class="column">
+                    <p class="name">ANA</p>
+                    <p class="description">
+                        One of the founding members of Overwatch, Ana uses her skills and expertise to defend her
+                        home
+                        and the people she cares for.
+                    <div class="info">
+                        <p>
+                            Role: Support
+                        </p>
+                        <p>
+                            Base of Operations: Cairo, Egypt
+                        </p>
+                        <p>
+                            Birthdate: Jan 1 (Age: 62)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/ana/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt337560e347894727/638807fa6663180e7cbbcf88/ana_01.jpg?format=webply&quality=90"
+                    alt="Ana">
+            </div>
+            <div id="baptiste" class="baptiste">
+                <div class="column">
+                    <p class="name">BAPTISTE</p>
+                    <p class="description">
+                        An elite combat medic and ex-Talon operative, Baptiste now uses his skills to help those
+                        whose
+                        lives have been impacted by war.
+                    <div class="info">
+                        <p>
+                            Role: Support
+                        </p>
+                        <p>
+                            Base of Operations: Tortuga, Haiti (formerly), Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Mar 12 (Age: 38)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/baptiste/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt125347168b027b51/637da13e46a48b0e063e4a91/baptiste-02.jpg?format=webply&quality=90"
+                    alt="Baptiste">
+            </div>
+            <div id="brigitte" class="brigitte">
+                <div class="column">
+                    <p class="name">BRIGITTE</p>
+                    <p class="description">
+                        No longer sitting on the sidelines, Brigitte Lindholm has taken up arms to defend those in
+                        need
+                        of protection.
+                    <div class="info">
+                        <p>
+                            Role: Support
+                        </p>
+                        <p>
+                            Base of Operations: Gothenburg, Sweden (formerly), Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: Sep 22 (Age: 25)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/brigitte/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/bltb223aa8661613921/637da148e5d09810cdaff5bc/brigitte-01.jpg?format=webply&quality=90"
+                    alt="Brigitte">
+            </div>
+            <div id="illari" class="illari">
+                <div class="column">
+                    <p class="name">ILLARI</p>
+                    <p class="description">
+                        As the last of the Inti Warriors, Illari is a vessel for the power of the sun. She'll do
+                        anything to make up for her past.
+                    <div class="info">
+                        <p>
+                            Role: Support
+                        </p>
+                        <p>
+                            Base of Operations: Runasapi, Peru
+                        </p>
+                        <p>
+                            Birthdate: Dec 21 (Age: 18)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/illari/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt19e6b0122e0a2fe1/64c941a6c457599015a1f705/Illari_-_Moving_Forward.jpg?format=webply&quality=90"
+                    alt="Illari">
+            </div>
+            <div id="kiriko" class="kiriko">
+                <div class="column">
+                    <p class="name">KIRIKO</p>
+                    <p class="description">
+                        As Miko of the Kanezaka shrine and daughter of the Shimada's former swordmaster, Kiriko
+                        Kamori
+                        channels both her spiritual and ninja skills to heal her fractured city.
+                    <div class="info">
+                        <p>
+                            Role: Support
+                        </p>
+                        <p>
+                            Base of Operations: Kanezaka, Japan
+                        </p>
+                        <p>
+                            Birthdate: Jul 7 (Age: 21)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/kiriko/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt98316888daf5cf94/63880e31e5d09810cdaff693/kiriko-02.jpg?format=webply&quality=90"
+                    alt="Kiriko">
+            </div>
+            <div id="lifeweaver" class="lifeweaver">
+                <div class="column">
+                    <p class="name">LIFEWEAVER</p>
+                    <p class="description">
+                        The brilliant creator of biolight, a technology that merges plant matter and hard light. He
+                        dreams of healing the world.
+                    <div class="info">
+                        <p>
+                            Role: Support
+                        </p>
+                        <p>
+                            Base of Operations: Atlantic Arcology
+                        </p>
+                        <p>
+                            Birthdate: Apr 28 (Age: 31)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/lifeweaver/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blte9c2f18e500f9056/64236a722d91476d41e46580/lifeweaver-04.jpg?format=webply&quality=90"
+                    alt="Lifeweaver">
+            </div>
+            <div id="lucio" class="lucio">
+                <div class="column">
+                    <p class="name">LUCIO</p>
+                    <p class="description">
+                        Lúcio is an international celebrity who inspires social change through his music and
+                        activism.
+                    <div class="info">
+                        <p>
+                            Role: Support
+                        </p>
+                        <p>
+                            Base of Operations: Rio de Janeiro, Brazil
+                        </p>
+                        <p>
+                            Birthdate: Mar 20 (Age: 28)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/lucio/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt2cd33b648726ce63/637da1955148880e83ab6fbf/lucio-02.jpg?format=webply&quality=90"
+                    alt="Lucio">
+            </div>
+            <div id="mercy" class="mercy">
+                <div class="column">
+                    <p class="name">MERCY</p>
+                    <p class="description">
+                        A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer,
+                        a
+                        brilliant scientist, and a staunch advocate for peace.
+                    <div class="info">
+                        <p>
+                            Role: Support
+                        </p>
+                        <p>
+                            Base of Operations: Zürich, Switzerland (formerly), Watchpoint: Gibraltar
+                        </p>
+                        <p>
+                            Birthdate: May 13 (Age: 39)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/mercy/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt12c536b770bfdcd4/63880edf443fa70e71d4bfcd/mercy-00.jpg?format=webply&quality=90"
+                    alt="Mercy">
+            </div>
+            <div id="moira" class="moira">
+                <div class="column">
+                    <p class="name">MOIRA</p>
+                    <p class="description">
+                        Equal parts brilliant and controversial, scientist Moira O'Deorain is on the cutting edge of
+                        genetic engineering, searching for a way to rewrite the fundamental building blocks of life.
+                    <div class="info">
+                        <p>
+                            Role: Support
+                        </p>
+                        <p>
+                            Base of Operations: Oasis, Iraq
+                        </p>
+                        <p>
+                            Birthdate: Apr 4 (Age: 50)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/moira/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt2ec366c2ef8dfad4/637da1af113983111ba8ceda/moira-01.jpg?format=webply&quality=90"
+                    alt="Moira">
+            </div>
+            <div id="zenyatta" class="zenyatta">
+                <div class="column">
+                    <p class="name">ZENYATTA</p>
+                    <p class="description">
+                        Zenyatta is an omnic monk who wanders the world in search of spiritual enlightenment. It
+                        is said
+                        that those who cross his path are never the same again.
+                    <div class="info">
+                        <p>
+                            Role: Support
+                        </p>
+                        <p>
+                            Base of Operations: Shambali Monastery, Nepal (formerly)
+                        </p>
+                        <p>
+                            Birthdate: Jul 14 (Age: 33)
+                        </p>
+                    </div>
+                    <a href="https://overwatch.blizzard.com/en-us/heroes/zenyatta/">Learn more</a>
+                </div>
+                <img class="imageheroes"
+                    src="https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt12cfd3197d39f885/637eff7d3cbefd1110811111/zenyatta-00.jpg?format=webply&quality=90"
+                    alt="Zenyatta">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+            <div id="mode">
+                <p id="dark-mode">
+                    Dark mode
+                </p>
+                <p id="light-mode">
+                    Light mode
+                </p>
+                <p id="random-mode">
+                    Random mode
+                </p>
+            </div>
+            <p id="logout">
+                Log out
+            </p>
+            <p id="unsubscribe">
+                Unsubscribe
+            </p>
+        </div>
+        <div id="links">
+            <a href="https://overwatch.blizzard.com/en-us/">Overwatch 2 real site</a>
+            <a href="https://www.instagram.com/matei_stefan19/">My Instagram</a>
+            <a href="https://www.youtube.com/channel/UCcDXmUPSY_wFja9aEILSLRQ">My Youtube</a>
+        </div>
+        <p id="copyright">
+            @2024 Matei-Stefan Ungureanu. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
