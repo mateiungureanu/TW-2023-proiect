@@ -1,16 +1,5 @@
 {
   "dependencies": {
     "express": "^4.21.2"
-  },
-  "name": "tw-2023-proiect",
-  "version": "1.0.0",
-  "description": "Last hero added: Venture (16.04.2024)",
-  "main": "app_proiect.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
