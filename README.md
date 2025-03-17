@@ -11,10 +11,15 @@
 
 ### Requirements
 
-+ 
++ Check if you have Node installed \(`node -v`\). If not, install it from this [page](https://nodejs.org/en).
++ Check if you have Nodemon installed \(`nodemon -v`\). If not, install it locally using this command: `npm install --save-dev nodemon`
 
 ### Setup
 
++ `git clone https://github.com/mateiungureanu/TW-2023-proiect.git`
++ `cd TW-2023-proiect`
++ `npm install`
++ `npx nodemon app_proiect.js`
 + Go to http://localhost:4000/overwatch.html
 
 ### Pictures
